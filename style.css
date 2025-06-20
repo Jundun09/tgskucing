@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  overflow: auto;
+}
+
+.left, .right {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.left {
+  background-color: lightcyan;
+}
+
+.right {
+  background-color: tomato;
+}
+
+.left img, .right img {
+  float: left;
+  width: 150px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.footer {
+  clear: both;
+  text-align: center;
+  padding: 10px;
+  background-color: mediumslateblue;
+  color: white;
+  font-size: 14px;
+}
